@@ -1,6 +1,6 @@
 
 # Integer
-num = 10
+num = 50
 print("Integer:", num)
 
 # Float
