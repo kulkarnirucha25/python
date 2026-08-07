@@ -190,30 +190,30 @@
 # print(word,"=",count)    
 
 #password validation
-password=input("Enter a password: ")
-password=password.replace(" ","")
-if len(password)>=8:
-    for i in password:
-        if i.isupper():
-            for j in password:
-                if j.islower():
-                    for k in password:
-                        if k.isdigit():
-                            for l in password:
-                                if l in "!@#$%^&*()_+-=~`":
-                                    print("Valid password")
-                                    break
-                            else:
-                                print("Invalid password: must contain at least one special character.")
-                                break
-                    else:
-                        print("Invalid password: must contain at least one digit.")
-                        break
-            else:
-                print("Invalid password: must contain at least one lowercase letter.")
-                break
-    else:
-        print("Invalid password: must contain at least one uppercase letter.")
-else:
-    print("Invalid password: must be at least 8 characters long.")  
+# #password=input("Enter a password: ")
+# password=password.replace(" ","")
+# if len(password)>=8:
+#     for i in password:
+#         if i.isupper():
+#             for j in password:
+#                 if j.islower():
+#                     for k in password:
+#                         if k.isdigit():
+#                             for l in password:
+#                                 if l in "!@#$%^&*()_+-=~`":
+#                                     print("Valid password")
+#                                     break
+#                             else:
+#                                 print("Invalid password: must contain at least one special character.")
+#                                 break
+#                     else:
+#                         print("Invalid password: must contain at least one digit.")
+#                         break
+#             else:
+#                 print("Invalid password: must contain at least one lowercase letter.")
+#                 break
+#     else:
+#         print("Invalid password: must contain at least one uppercase letter.")
+# else:
+#     print("Invalid password: must be at least 8 characters long.")  
         
