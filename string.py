@@ -217,3 +217,9 @@
 # else:
 #     print("Invalid password: must be at least 8 characters long.")  
         
+#	Run-Length Encoding
+# ●	Compress a string by counting consecutive repeated characters. 
+# ●	Example:
+# 	Input: aaabbccccd
+# 	Output: a3b2c4d1 
+
