@@ -1,0 +1,1 @@
+Python is a popular programming language. It is easy to learn and is used for web development, data science and artificial intelligence. Python also provides file handling features to read, write, and modify files easily.
