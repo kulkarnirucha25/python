@@ -1,11 +1,11 @@
-#Write a program to input a string and display its length without using the len() function.
+# Write a program to input a string and display its length without using the len() function.
 # text="hello, world"
 # count=0
 # for i in text:
 #     count+=1
-# print("length of string is:",count)     
+# print("length of string is:",count)
 
-#Count the number of vowels, consonants, digits, spaces, and special characters in a given string.
+# Count the number of vowels, consonants, digits, spaces, and special characters in a given string.
 # text="Hellow,@world 123"
 # vowels=0
 # consonants=0
@@ -30,14 +30,14 @@
 # print("Number of spaces:", spaces)
 # print("Number of special characters:", special)
 
-#Reverse the given string without using built-in reverse functions. 
+# Reverse the given string without using built-in reverse functions.
 # text="Hello, World!"
 # reversed_str=""
 # for i in text:
 #     reversed_str=i+reversed_str
 # print("Reversed string:", reversed_str)
 
-#check if string is palindrome or not
+# check if string is palindrome or not
 # text="tat"
 # reversed_str=text[::-1]
 # if text==reversed_str:
@@ -45,7 +45,7 @@
 # else:
 #     print("The string is not a palindrome.")
 
-#uppercase and lowercase count
+# uppercase and lowercase count
 # text="I am a DYP student"
 # count1=0
 # count2=0
@@ -57,19 +57,19 @@
 # print("Number of uppercase letters:", count1)
 # print("Number of lowercase letters:", count2)
 
-#Replace all occurrences of a given character with another character.
+# Replace all occurrences of a given character with another character.
 # text="Hello, World!"
 # ch='o'
 # new_ch='a'
 # text=text.replace(ch, new_ch)
 # print("Modified string:", text)
 
-#remove spaces from the input string
+# remove spaces from the input string
 # text="welcome to python"
 # text=text.strip()
 # print("String after removing spaces:", text)
 
-#frequency of each character
+# frequency of each character
 # text="i am a nnice little girl"
 # freq={}
 # for i in text:
@@ -79,24 +79,24 @@
 #         freq[i]=1
 # print("Frequency of each character:", freq)
 
-#first and last character
+# first and last character
 # text =input("Enter a string: ")
 # print("First character of the string:", text[0])
 # print("Last character of the string:", text[-1])
 
-#ASCII values
+# ASCII values
 # for i in range(65,91):
 #     print(i,"=",chr(i))
 
-#word count in a sentence
+# word count in a sentence
 # text=input("Enter a sentence: ")
 # words=text.split()
 # count=0
 # for i in words:
 #     count+=1
-# print(count)    
+# print(count)
 
-#longest word
+# longest word
 # text=input("Enter a sentence: ")
 # words=text.split()
 # longest_word=words[0]
@@ -105,9 +105,9 @@
 #         longest_word=i
 #     else:
 #         pass
-# print(longest_word) 
+# print(longest_word)
 
-#shortest word
+# shortest word
 # text=input("Enter a sentence: ")
 # words=text.split()
 # shortest_word=words[0]
@@ -118,7 +118,7 @@
 #         pass
 # print(shortest_word)
 
-#tittle case
+# tittle case
 # text=input("Enter a sentence: ")
 # tittle_case=text.title()
 # print(tittle_case)
@@ -132,9 +132,9 @@
 #         new_text+=i
 #     else:
 #         pass
-# print(new_text)        
+# print(new_text)
 
-#character frequency
+# character frequency
 # text=input("Enter a string: ")
 # freq={}
 # text=text.replace(" ","")
@@ -143,19 +143,19 @@
 #         freq[i]=1
 #     elif i in freq:
 #         freq[i]+=1
-# print(freq)    
+# print(freq)
 
-#anagram check
+# anagram check
 # text1=input("Enter first string: ")
 # text2=input("Enter second string: ")
 # text1=text1.replace(" ","")
 # text2=text2.replace(" ","")
 # if sorted(text1)==sorted(text2):
 #     print("The strings are anagrams.")
-# else:                                 
+# else:
 #     print("The strings are not anagrams.")
 
-#print duplicate characters
+# print duplicate characters
 # text=input("Enter a string: ")
 # freq={}
 # dups=[]
@@ -166,18 +166,18 @@
 #     else:
 #         freq[i]+=1
 #         if i not in dups:
-#          dups.append(i)  
+#          dups.append(i)
 # print(dups)
 
-#Check whether a given substring exists in the main string.     
+# Check whether a given substring exists in the main string.
 # text=input("Enter the main string: ")
 # substring=input("Enter the substring: ")
 # if substring in text:
 #     print("The substring exists in the main string.")
 # else:
-#     print("The substring does not exist in the main string.")   
+#     print("The substring does not exist in the main string.")
 
-#Count how many times a specific word appears in a sentence. 
+# Count how many times a specific word appears in a sentence.
 # text=input("Enter a sentence: ")
 # word=input("Enter the word to count: ")
 # count=0
@@ -187,9 +187,9 @@
 #         count+=1
 #     else:
 #         pass
-# print(word,"=",count)    
+# print(word,"=",count)
 
-#password validation
+# password validation
 # #password=input("Enter a password: ")
 # password=password.replace(" ","")
 # if len(password)>=8:
@@ -215,11 +215,10 @@
 #     else:
 #         print("Invalid password: must contain at least one uppercase letter.")
 # else:
-#     print("Invalid password: must be at least 8 characters long.")  
-        
-#	Run-Length Encoding
-# ●	Compress a string by counting consecutive repeated characters. 
+#     print("Invalid password: must be at least 8 characters long.")
+
+# 	Run-Length Encoding
+# ●	Compress a string by counting consecutive repeated characters.
 # ●	Example:
 # 	Input: aaabbccccd
-# 	Output: a3b2c4d1 
-
+# 	Output: a3b2c4d1

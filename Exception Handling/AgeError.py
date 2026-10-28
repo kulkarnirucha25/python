@@ -1,6 +1,7 @@
 class InvalidAgeError(Exception):
     pass
 
+
 age = int(input("Enter your age: "))
 
 try:

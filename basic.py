@@ -1,4 +1,3 @@
-
 # Integer
 num = 50
 print("Integer:", num)
@@ -28,11 +27,7 @@ s = {10, 20, 30, 20}
 print("Set:", s)
 
 # Dictionary
-student = {
-    "Name": "Rucha",
-    "Age": 20,
-    "City": "Kolhapur"
-}
+student = {"Name": "Rucha", "Age": 20, "City": "Kolhapur"}
 print("Dictionary:", student)
 
 # IF STATEMENT
@@ -81,4 +76,3 @@ while x <= 3:
     x += 1
 else:
     print("While loop finished")
-

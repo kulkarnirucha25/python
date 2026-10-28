@@ -12,4 +12,3 @@
 # sentences = text.split(".")
 # for i in range(len(sentences) - 1):
 #     print(i + 1, sentences[i].strip())
-

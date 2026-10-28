@@ -1,6 +1,6 @@
 import numpy as np
 
-n = int (input("Enter the size of the array:"))
+n = int(input("Enter the size of the array:"))
 arr = []
 
 for i in range(n):

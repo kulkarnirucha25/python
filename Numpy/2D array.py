@@ -1,7 +1,7 @@
 import numpy as np
 
-r=int(input("Enter the number of rows:"))
-c=int(input("Enter the number of columns:"))
+r = int(input("Enter the number of rows:"))
+c = int(input("Enter the number of columns:"))
 arr = []
 
 for i in range(r):

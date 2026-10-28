@@ -1,40 +1,40 @@
-#OPEN A FILE AND READ
+# OPEN A FILE AND READ
 # f = open("File Handling/Example.txt","r")
 # print(f.read())
 # f.close()
 
 
-#OPEN A FILE USING WITH AND READ
+# OPEN A FILE USING WITH AND READ
 # with open("File Handling/Example.txt","r") as f:
 #      print(f.read())
 
 
-#WRITE TO A FILE
+# WRITE TO A FILE
 # with open("File Handling/Example.txt","w") as f:
 #    f.write("Hello Python\n")
 # with open("File Handling/Example.txt", "r") as f:
 #     print(f.read())
 
 
-#APPEND TO A FILE
+# APPEND TO A FILE
 # with open("File Handling/Example.txt","a") as f:
 #     f.write("Appended Text\n")
 # with open("File Handling/Example.txt","r") as f:
 #     print(f.read())
 
 
-#READLINE
+# READLINE
 # f = open("File Handling/Example.txt","r")
 # print(f.readline())
 
 
-#READLINES
+# READLINES
 # f = open("File Handling/Example.txt","r")
 # print(f.readlines())
 
 
-#READ AND WRITE
-# with open("File Handling/Example.txt","r+") as f:   
+# READ AND WRITE
+# with open("File Handling/Example.txt","r+") as f:
 #     print(f.read())
 #     f.write("Appended Text\n")
 # with open("File Handling/Example.txt","r") as f:
@@ -48,18 +48,18 @@
 #   print(f.read())
 
 
-#APPEND AND READ
+# APPEND AND READ
 # with open("File Handling/Example.txt","a+") as f:
 #     f.write("New Text\n")
 # with open("File Handling/Example.txt","r") as f:
 #   print(f.read())
 
 
-#CREATE A NEW FILE
-with open("File Handling/NewFile.txt","x") as f:    
-  f.write("This is a new file.\n")
-with open("File Handling/NewFile.txt","r") as f:
-  print(f.read())
+# CREATE A NEW FILE
+with open("File Handling/NewFile.txt", "x") as f:
+    f.write("This is a new file.\n")
+with open("File Handling/NewFile.txt", "r") as f:
+    print(f.read())
 
 
 # READ AND WRITE BINARY FILE
@@ -76,13 +76,13 @@ with open("File Handling/NewFile.txt","r") as f:
 #     print(f.read().decode())
 
 
-#BINARY DATA OF IMAGE
+# BINARY DATA OF IMAGE
 # with open("File Handling/image.jpg", "rb") as f:
 #     data = f.read()
 #     print(data)
 
 
-#SEEK AND TELL
+# SEEK AND TELL
 with open("File Handling/Example.txt", "r") as f:
     print(f.tell())
     print(f.read(3))
